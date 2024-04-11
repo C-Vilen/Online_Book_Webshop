@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace BulkyWeb.Models
 {
@@ -9,7 +10,10 @@ namespace BulkyWeb.Models
         public int Id { get; set; }
         // Saying Name is required to be filled out
         [Required]
-        public string Name { get; set; }
+		[DisplayName("Name")]
+		public string Name { get; set; }
+        [DisplayName("Display Order")]
+        [Range(1,100)]
         public  int DisplayOrder { get; set; }
     }
 }
