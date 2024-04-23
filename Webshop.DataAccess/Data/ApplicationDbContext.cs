@@ -1,7 +1,7 @@
-﻿using BulkyWeb.Models;
+﻿using Webshop.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkyWeb.Data
+namespace Webshop.DataAccess.Data
 {
     // Inherits the .NET core DbContext class to query the database
     public class ApplicationDbContext : DbContext
