@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWeb", "BulkyWeb\BulkyWeb.csproj", "{23B8895A-3CB6-4D42-984B-A8755385C0F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webshop", "BulkyWeb\Webshop.csproj", "{23B8895A-3CB6-4D42-984B-A8755385C0F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81201B20-B7D5-4DAA-9E16-299A3C1E00D1}"
 	ProjectSection(SolutionItems) = preProject

@@ -3,7 +3,7 @@ using Webshop.Models;
 using Microsoft.AspNetCore.Mvc;
 using Webshop.DataAccess.Repository.IRepository;
 
-namespace BulkyWeb.Controllers
+namespace Webshop.Controllers
 {
     public class CategoryController : Controller
     {

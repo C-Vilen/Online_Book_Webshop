@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Webshop.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyWeb.Controllers
+namespace Webshop.Controllers
 {
     public class HomeController : Controller
     {
